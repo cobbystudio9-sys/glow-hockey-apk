@@ -15,7 +15,7 @@ jobs:
       - name: Unpack Android project
         run: |
           mkdir project
-          unzip -q GlowHockey-Android-Project.zip -d project
+          unzip -q GlowHockey-Fixed-Project.zip -d project
 
       - name: Set up Java
         uses: actions/setup-java@v5
